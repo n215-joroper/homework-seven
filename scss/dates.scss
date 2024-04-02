@@ -1,0 +1,149 @@
+.dates{
+    max-width: 980px;
+    height: 900px;
+    margin: 0 auto;
+    margin-bottom: 10000;
+    .date-holder{
+        max-width: 980px;
+        display: flex;
+        
+        .calender{
+            height: 350px;
+            width: 100px;
+            //background-color: blue;
+            .calender-holder{
+                height: 60px;
+                width: 60px;
+                background-color: #79ADDC;
+                // /margin: 0 auto;
+                
+                //align-items: center;
+                justify-content: center;
+                display: flex;
+               .calender-text{
+                    align-items: center;
+                    justify-content: center;
+                        
+                        
+                    h4{
+                        padding-top: 10px;
+                        color: white;
+                        font-family: 'Gill Sans';
+                       
+                    }
+                    h6{
+                    color: white; 
+                    font-family: 'Gill Sans';
+                  
+                    
+                    }
+               }
+            }
+        }
+        .info-holder{
+            
+            .date-pic{
+                width: 100%;
+                height: 259px;
+                background-color: black;
+                background-image: url(../images/blog.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .date-title{
+                padding-top: 20px;
+                width: 50%;
+                font-family: 'Gill Sans';
+                
+            }
+            .date-info{
+                width: 50%;
+                font-family: 'Gill Sans';
+               
+
+                p{
+                    
+                    color: #79ADDC;
+                }
+            }
+        }
+        
+    }
+    .date-holder1{
+        max-width: 980px;
+        display: flex;
+        margin-top: 100px;
+       
+        .calender{
+            height: 350px;
+            width: 100px;
+            //background-color: blue;
+            .calender-holder{
+                height: 60px;
+                width: 60px;
+                background-color: #79ADDC;
+                // /margin: 0 auto;
+                
+                //align-items: center;
+                justify-content: center;
+                display: flex;
+               .calender-text{
+                    align-items: center;
+                    justify-content: center;
+                        
+                        
+                    h4{
+                        padding-top: 10px;
+                        color: white;
+                        font-family: 'Gill Sans';
+                      
+                    }
+                    h6{
+                    color: white; 
+                    font-family: 'Gill Sans';
+                   
+                    
+                    }
+               }
+            }
+        }
+        .info-holder{
+            
+            .date-pic{
+                width: 100%;
+                height: 259px;
+                background-color: black;
+                background-image: url(../images/blog.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .date-title{
+                padding-top: 20px;
+                width: 50%;
+                font-family: 'Gill Sans';
+               
+            }
+            .date-info{
+                width: 50%;
+                font-family: 'Gill Sans';
+                
+                p{
+                    
+                    color: #79ADDC;
+                }
+            }
+        }
+        
+    }
+
+    
+}
+
+@media all and (max-width:560px){
+    .dates{
+        margin-bottom: 400px;
+
+    }
+}

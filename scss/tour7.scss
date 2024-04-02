@@ -1,0 +1,49 @@
+.tour7-package {
+    max-width: 980px;
+    height: 413px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    //display: flex;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour-07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 49px;
+    position: relative;
+   
+    
+    .package-holder{
+       
+      
+        
+        .package-text{
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+            p{
+                color: white;
+                font-size: 80px;
+                font-family: 'Gill Sans';
+            }
+        }
+        .starting-text{
+            position: absolute;
+            //padding-top: 382px;
+            right: 0px;
+            bottom: 0px;
+            font-size: 18px;
+            
+            p{
+                color: white;
+                font-size: 30px;
+                font-family: 'Gill Sans';
+                font-weight: 10px;
+            }
+        }
+    
+    }
+    
+}

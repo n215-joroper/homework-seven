@@ -1,0 +1,90 @@
+.about{
+    margin: 0 auto;
+    height: 400px;
+    max-width: 980px;
+    //background-color: black;
+    //position: absolute;
+    
+    align-items: center;
+    display: flex;
+    //margin-top: 110px;
+   
+    
+    
+
+    .about-holder{
+        width: 100%;
+        
+        //background-color: palegreen;
+       
+        
+        .about-text{
+            h1{
+                font-family: 'Gill Sans';
+                font-weight: normal;
+                position: relative;
+                
+                //font-weight: normal;
+            }
+            
+            //width: 17%;
+            //background: rgba(0,0,0,0);
+            //border-bottom: 1px solid black;
+            font-size: 35px;
+            //background-color: palevioletred;
+           
+            h1::after {
+                display: block;
+                content: '';
+                 width: 171px;
+                 height: 2px;
+                 background: black;
+                 position: absolute;
+                 bottom: 0;
+                 left: 0;
+                 
+                 
+               }
+            
+        }
+
+        .info{
+            height: 100px;
+            width: 100%;
+            padding-top: 36.5px;
+            font-size: 16px;
+            font-family: 'Gill Sans';
+            //background-color: pink;
+            
+            
+        }
+    }
+}
+
+@media all and (max-width: 750px){
+    .about{
+       
+        padding-bottom: 50px;
+        
+    
+    
+        .about-holder{
+           
+            
+            .about-text{
+                
+             
+               
+                h1::after {
+                   
+                
+                }
+    
+                .info{
+                    
+                   
+                }
+            }
+        }
+    }  
+}
